@@ -49,15 +49,19 @@ nav img{
 /* texbox********************* */
 .text-box{
     width: 90%;
-    color:black ;
+    color:white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    width: 50%;
+    background-color:rgb(70, 70, 221)
 }
 .text-box h1{
     font-size: 60px;
+    color: red;
+    font-weight: 600;
 }
 .text-box p{
 margin: 10px 0 40px;
@@ -75,19 +79,18 @@ color: black;
 .blog h3{
     color: wheat;
     background-color: orangered;
-    font-size: 20px;
+    font-size: 22px;
     justify-content: center;
-    padding-left: 100px;
 }
 .blog .row ul{
-   width: 400px;
+   width: 500px;
    margin: 20px;
    justify-content: space-between;
 }
 .blog .row ul li{
     list-style: none;
     padding: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 /* .blog .row img{
     width: 500px;
@@ -96,8 +99,8 @@ color: black;
 
 .blog .row ul li strong{
     font-weight: normal;
-    /* padding-left: 100px;
-    justify-content: center; */
+    padding-left: 100px;
+    /* justify-content: center; */ */
    /* align-items: ; */
 }
 .blog .text{
@@ -114,24 +117,26 @@ color: black;
 }
 .input input{
     width: 80%;
-    height: 30px;
+    height: 40px;
     background-color: rgba(246, 251, 252, 0.904);
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 20px;
 }
 
 .input input:nth-child(3){
-    height:50px ;
+    height:80px ;
 }
 .footer{
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    background-color: beige;
 }
 .footer h4{
     margin-bottom: 25px;
-    margin-top: 20px;
+    margin: 20px;
     font-weight: 600;
+    width: 80%;
 }
 .icons .bi{
     color: #f44336;

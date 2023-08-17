@@ -5,10 +5,11 @@
 header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/s1.jpg);
+    background-image: url(images/M.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
+
 }
 /* navbar********************* */
 nav{
@@ -48,9 +49,10 @@ nav img{
 }
 /* texbox********************* */
 .text-box{
-    width: 90%;
-    color:black ;
+    width: 30%;
+    color:white ;
     position: absolute;
+    background-color:rgb(70, 70, 221);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -58,6 +60,8 @@ nav img{
 }
 .text-box h1{
     font-size: 60px;
+    color: red;
+    font-weight: 600;
 }
 .text-box p{
 margin: 10px 0 40px;
@@ -87,30 +91,28 @@ nav .bi{
 } /* section row */
  .row{
      display: flex;
-    width: 80%;
+    width: 100%;
     margin: auto;
-    text-align: center;
-    padding-top: 100px;
-    
+    padding: 50px;
 }
 .s-col{
-    flex-basis:31%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+    margin-right:50px ;
+    left: 0;
+    background: rgb(212, 192, 166);
+    
 }
+
 .row img{
-    width: 100%;
+    width: 400px;
     height: 400px;
     border-radius: 10px;
 }
-.show{
-    background: rgb(212, 192, 166);
-}
-.s-col{
-    border-radius: 10px;
-    text-align: center;
-}
+
+
 .s-col p{
     width: 700px;
     padding: 20px;
@@ -127,11 +129,13 @@ nav .bi{
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    background-color: beige;
 }
 .footer h4{
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
+    
 }
 .icons .bi{
     color: #f44336;
